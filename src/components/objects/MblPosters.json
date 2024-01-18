@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "posters/mbl-amd-poster.png",
+        "alt": ""
+    },
+    {
+        "id": 2,
+        "image": "posters/mbl-aorus-poster.png",
+        "alt": ""
+    },
+    {
+        "id": 3,
+        "image": "posters/mbl-logitech-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 4,
+        "image": "posters/mbl-intel-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 5,
+        "image": "posters/mbl-kingston-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 6,
+        "image": "posters/mbl-samsung-poster.jpg",
+        "alt": ""
+    }
+]

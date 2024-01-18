@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+#login {
+    letter-spacing: 1px;
+}
+
+#mobile-overlay, #close-bar {
+    width: calc(100% - 56px);
+}
+
+.mbl-item {
+    font-size: 17px;
+}
+
+.mbl-item a, .dsk-item div {
+    line-height: 2.5em;
+}
+
+.dsk-item a {
+    margin: 0 1.5vw;
+}
+
+.card-container {
+    padding: 0 20px;
+}
+
+.img-container img:hover {
+    transition: ease-in-out 0.3s;
+    scale: 1.1;
+}
+
+.complete {
+    line-height: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#write-us-btn, #call-us-btn {
+    width: calc(50% - 7px);
+}
+
+#controls {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+}
+
+#confirm-wrapper {
+    background: rgba(0,0,0,.32);
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1050px;
+    width: 100%;
+    height: 100px;
+}
+
+.pagination a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-width: 1px;
+    border-color:#B9B9B9;
+}
+
+.active a {
+    color: white;
+    background-color: #0F52BA;
+    border-color: #0F52BA;
+}
+
+.pagination a:hover {
+    transition: all;
+    transition-duration: 0.3s;
+    background-color: #0F52BA;
+    border-color: #0F52BA;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    #item-title-container {
+        position: relative;
+        flex-grow: 1;
+        width: calc(100% - 455px);
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dsk-item a {
+        margin: 0 3vw;
+    }
+}

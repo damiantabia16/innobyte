@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "posters/amd-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 2,
+        "image": "posters/aorus-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 3,
+        "image": "posters/hyperx-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 4,
+        "image": "posters/intel-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 5,
+        "image": "posters/kingston-poster.jpg",
+        "alt": ""
+    },
+    {
+        "id": 6,
+        "image": "posters/samsung-poster.jpg",
+        "alt": ""
+    }
+]
